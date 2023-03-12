@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The-Art-of-Tinting</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
-      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" >
@@ -19,10 +20,10 @@
       <div>
         <svg></svg>
       </div>
-      <ul>
-        <li>window Tint</li>
-        <li>Paint Protection (PPF)</li>
-        <li>Ceramic coating</li>
+      <ul class="list">
+        <li><a href="#window Tint">window Tint</a></li>
+        <li> <a href="#paint Protection">Paint Protection (PPF)</a></li>
+        <li> <a href="#ceramic coating">Ceramic coating</a></li>
       </ul>
       <a href="tel:+16477811116 ">+1 (647) 781-1116</a>
       <button>Book now</button>
@@ -43,7 +44,7 @@
     </section>
     <!-- about as -->
     <section class="container">
-      <ul>
+      <ul class="list">
         <li>
           <h3>window Tint</h3>
           <p>
@@ -73,13 +74,13 @@
       </p>
     </section>
     <!-- proposition -->
-    <section class="container">
+    <section id ="window Tint" class="container">
       <h2>window Tint</h2>
       <p>
         Window tinting is a process in which a thin laminated film is applied to
         the glass that changes the colour to a darker hue.
       </p>
-      <ul>
+      <ul class="list" >
         <li>
           <h4>CERAMIC</h4>
           <p>&#36;360</p>
@@ -110,9 +111,9 @@
       <video src=""></video>
     </section>
     <!-- Offer-->
-    <section class="container">
+    <section id="paint Protection" class="container">
       <h2>Paint Protection (PPF)</h2>
-      <ul>
+      <ul class="list">
         <li>
           HIGH IMPACT PACKAGE (Popular add-on): Headlights, foglights, mirrors,
           rear bumper ledge &#36;200
@@ -125,26 +126,30 @@
         <li>Front of rear wheel arches &#36;100</li>
         <li>Mirrors &#36;100</li>
       </ul>
-      <ul>
+      <ul class="list">
         <li>
+            <img src="./sass/images/bronze-packedge.jpg" alt="car" width="170" height="85">
           <p>BRONZE PACKAGE 18”</p>
           <p>&#36;260</p>
           <p>&#36;350</p>
           <button>Book now</button>
         </li>
         <li>
+            <img src="./sass/images/silver-packedge.jpg" alt="car" width="170" height="85">
           <p>SILVER PACKAGE</p>
           <p>&#36;950</p>
           <p>&#36;1200</p>
           <button>Book now</button>
         </li>
         <li>
+            <img src="./sass/images/platinum-packedge.jpg" alt="car" width="170" height="85">
           <p>PLATINUM PACKAGE</p>
           <p>&#36;1650</p>
           <p>&#36;1800</p>
           <button>Book now</button>
         </li>
         <li>
+            <img src="./sass/images/complete-packedge.jpg" alt="car" width="170" height="85">
           <p>COMPLETE PACKAGE</p>
           <p>&#36;4800</p>
           <p>&#36;5500</p>
@@ -157,7 +162,7 @@
         <h2>Hidden-gallary</h2>
     </section>
     <!-- services-->
-    <section class="container">
+    <section id="ceramic coating" class="container">
       <h2>Ceramic coating</h2>
       <p>
         Protects paint by reducing swirl marks, prevents oxidation and staining
@@ -166,12 +171,12 @@
         as providing an extreme gloss shine!
       </p>
       <img src="./sass/images/section-oder.jpg" alt="Ceramic coating"  width="536" height="324">
-      <ul>
+      <ul class="list">
         <li>
           <svg></svg>
           <svg></svg>
           <h4>FEATURES</h4>
-          <ul>
+          <ul class="list">
             <li>Multi-layerable</li>
             <li>Professional Use</li>
             <li>Certified and Patented</li>
@@ -184,7 +189,7 @@
           <svg></svg>
           <svg></svg>
           <h4>FEATURES</h4>
-          <ul>
+          <ul class="list">
             <li>Multi-layerable</li>
             <li>Professional Use</li>
             <li>SGS Tested</li>
@@ -217,7 +222,7 @@
           >348 Bronte St. S Unit #15, Milton, ON L9T 0H7</a
         >
       </address>
-      <ul>
+      <ul class="list">
         <li><svg></svg></li>
         <li><svg></svg></li>
       </ul>
@@ -236,7 +241,7 @@
     <!-- contacts -->
     <section class="container">
       <svg>Logo</svg>
-      <ul>
+      <ul class="list">
         <li>
           <p>
             We stand behind our work and strive to provide the best customer
@@ -247,7 +252,7 @@
         <li>
           <h5>Get a Free quote</h5>
           <address>
-            <ul>
+            <ul class="list">
               <li><a href="tel:+16477811116 ">+1 (647) 781-1116</a></li>
               <li>
                 <a href="https://goo.gl/maps/ZBF5TuJLD71QgP2G8" target="_blank" rel=" noopener noopener nofollow"
@@ -258,7 +263,7 @@
           </address>
         </li>
         <li>
-          <ul>
+          <ul class="list">
             <li><h5>Our Services</h5></li>
             <li>window Tint</li>
             <li>Paint Protection (PPF)</li>
@@ -272,7 +277,7 @@
     <section>
         <h2>hidden-footer</h2>
       <p>Copyright &#169;2023 THE ART OF TINITNG</p>
-      <ul>
+      <ul class="list">
         <li><svg></svg></li>
         <li><svg></svg></li>
       </ul>
