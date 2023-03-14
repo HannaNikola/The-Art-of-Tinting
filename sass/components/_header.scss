@@ -1,0 +1,44 @@
+.head{
+    background-color: #000000;
+}
+.logo{
+    font-family: 'Trade Winds';;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #F2C938;
+    text-transform: capitalize;
+}
+.head_link {
+font-weight: 500;
+font-size: 18px;
+line-height:1.16 ;
+
+&:focus,
+&:hover {
+color:#F2C938;
+}
+
+}
+
+.head_mobail{
+font-size: 20px;
+line-height: 1.14;
+&:focus,
+&:hover {
+    color: #F2C938;
+}
+}
+.head_button {
+    width: 160px;
+    height: 45px;
+   background-color:#F2C938;
+   color:#FFFFFF ;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: solid transparent ;
+    &:focus,
+        &:hover {
+            background-color: #45B26B;
+        }
+}

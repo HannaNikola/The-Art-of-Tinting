@@ -25,7 +25,6 @@ ul {
   font-weight: 700;
   font-size: 46px;
   line-height: 1, 3em;
-  text-align: center;
   color: white;
 }
 
@@ -33,9 +32,15 @@ ul {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
+  color: #FFFFFF;
 }
 
 :root {
@@ -48,18 +53,302 @@ body {
   --akcent-color:#F2C938;
 }
 
+.head {
+  background-color: #000000;
+}
+
+.logo {
+  font-family: "Trade Winds";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #F2C938;
+  text-transform: capitalize;
+}
+
+.head_link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.head_link:focus, .head_link:hover {
+  color: #F2C938;
+}
+
+.head_mobail {
+  font-size: 20px;
+  line-height: 1.14;
+}
+.head_mobail:focus, .head_mobail:hover {
+  color: #F2C938;
+}
+
+.head_button {
+  width: 160px;
+  height: 45px;
+  background-color: #F2C938;
+  color: #FFFFFF;
+  cursor: pointer;
+  border-radius: 5px;
+  border-radius: solid transparent;
+}
+.head_button:focus, .head_button:hover {
+  background-color: #45B26B;
+}
+
+.hero {
+  background: -webkit-gradient(linear, left top, right top, color-stop(21.1%, rgba(0, 0, 0, 0.357)), color-stop(66.01%, rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.357) 21.1%, rgba(0, 0, 0, 0.7) 66.01%);
+}
+
+.hero_title {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 85px;
+  text-transform: capitalize;
+  line-height: 1.4;
+}
+
+.hero_text {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hero_button {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  font-size: 25.15px;
+  line-height: 1.14;
+  color: #FFFFFF;
+  background-color: #F2C938;
+  cursor: pointer;
+  width: 251.52px;
+  height: 81.74px;
+  border-radius: 6.29px;
+  border: solid transparent;
+  padding-top: 26px;
+  padding-left: 57.5px;
+  padding-bottom: 26px;
+  padding-right: 57.5px;
+}
+
+.hero_mobail {
+  font-size: 31.68px;
+  line-height: 1.14;
+}
+
+.customer_number {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.14;
+}
+
+.text_customer {
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.about {
+  background-color: #222224;
+}
+
+.about_title {
+  text-transform: uppercase;
+}
+
+.about_text {
+  font-size: 16px;
+  line-height: 1.15;
+  color: #EDEDED;
+}
+
+.about_second_title {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1.35;
+}
+
+.about_second_text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.proposition {
+  background-color: #28282A;
+}
+
+.window_text {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.card_material {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #969696;
+}
+
+.card_sales {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.card_price {
+  font-size: 15px;
+  line-height: 1.1;
+  color: #616161;
+}
+
+.card_cover {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #969696;
+}
+
+.card_button {
+  font-weight: 700;
+  font-size: 17px;
+  color: #FFFFFF;
+  background-color: #222224;
+  cursor: pointer;
+  width: 175px;
+  height: 42px;
+  border-radius: 5px;
+  border: solid transparent;
+}
+.card_button:hover, .card_button:focus {
+  background-color: #969696;
+}
+
+.video {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.offer {
+  background-color: #28282A;
+}
+
+.protect_item {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.package_name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #969696;
+}
+
+.package_new_price {
+  font-weight: 700;
+  font-size: 48.69px;
+  line-height: 1.1;
+}
+
+.package_old_price {
+  font-size: 15px;
+  line-height: 1.14;
+  color: #616161;
+}
+
+.package_button {
+  font-weight: 500;
+  font-size: 17px;
+  color: #FFFFFF;
+  background-color: #222224;
+  cursor: pointer;
+  height: 42px;
+  width: 170px;
+}
+
+.gallary {
+  background-color: #343436;
+}
+
+.services {
+  background-color: #222224;
+}
+
+.ceramic_text {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.list_title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  -webkit-text-decoration: underline #F2C938;
+          text-decoration: underline #F2C938;
+}
+
+.list_item {
+  color: #969696;
+  font-size: 17px;
+}
+
+.list_button {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.1;
+  cursor: pointer;
+  background-color: #222224;
+  color: #FFFFFF;
+  width: 246px;
+  height: 50px;
+}
+
+.location {
+  background-color: #343436;
+}
+
+.navigation_text {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.navigation_button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.1;
+  color: #fff;
+  background-color: #F2C938;
+  cursor: pointer;
+  width: 109px;
+  height: 18px;
+}
+
+.navigation_mobail {
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.navigation_adress {
+  font-size: 18px;
+  line-height: 1.1;
+}
+
 .oder-conteiner {
   background-color: #222224;
+}
+
+.title_oder {
+  line-height: 1.36;
 }
 
 .oder-text {
   font-family: Ubuntu;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1, 6em;
+  line-height: 1.16;
   width: 793px;
   text-align: center;
-  color: white;
 }
 
 .oder-button {
@@ -67,11 +356,51 @@ body {
   font-family: Ubuntu;
   font-weight: 700;
   font-size: 17px;
-  color: white;
   text-align: center;
   cursor: pointer;
   padding: 15px 81.5px;
   border-radius: 5px solid #F2C938;
   radius: 5px;
   width: 273.5px;
+  color: #FFFFFF;
+}
+
+.container_contacts {
+  background-color: #222224;
+}
+
+.contact_text {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.contact_title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.contact_mobail {
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.contact_adress {
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.services {
+  font-size: 18px;
+  line-height: 2.4;
+}
+
+.footer {
+  background-color: #161617;
+}
+
+.footer_text {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777E90;
 }/*# sourceMappingURL=main.css.map */
