@@ -40,6 +40,7 @@ ul {
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
+  font-size: 18px;
   color: #FFFFFF;
 }
 
@@ -60,7 +61,6 @@ body {
 .logo {
   font-family: "Trade Winds";
   font-weight: 400;
-  font-size: 18px;
   line-height: 1.4;
   color: #F2C938;
   text-transform: capitalize;
@@ -68,7 +68,6 @@ body {
 
 .head_link {
   font-weight: 500;
-  font-size: 18px;
   line-height: 1.16;
 }
 .head_link:focus, .head_link:hover {
@@ -112,7 +111,6 @@ body {
 .hero_text {
   font-family: "Ubuntu";
   font-weight: 400;
-  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -171,7 +169,6 @@ body {
 }
 
 .about_second_text {
-  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -180,7 +177,6 @@ body {
 }
 
 .window_text {
-  font-size: 18px;
   line-height: 1.6;
 }
 
@@ -234,7 +230,6 @@ body {
 }
 
 .protect_item {
-  font-size: 18px;
   line-height: 1.6;
 }
 
@@ -276,7 +271,6 @@ body {
 }
 
 .ceramic_text {
-  font-size: 18px;
   line-height: 1.6;
 }
 
@@ -309,7 +303,6 @@ body {
 }
 
 .navigation_text {
-  font-size: 18px;
   line-height: 1.6;
 }
 
@@ -325,12 +318,10 @@ body {
 }
 
 .navigation_mobail {
-  font-size: 18px;
   line-height: 1.1;
 }
 
 .navigation_adress {
-  font-size: 18px;
   line-height: 1.1;
 }
 
@@ -345,7 +336,6 @@ body {
 .oder-text {
   font-family: Ubuntu;
   font-weight: 400;
-  font-size: 18px;
   line-height: 1.16;
   width: 793px;
   text-align: center;
@@ -381,17 +371,14 @@ body {
 }
 
 .contact_mobail {
-  font-size: 18px;
   line-height: 1.1;
 }
 
 .contact_adress {
-  font-size: 18px;
   line-height: 1.1;
 }
 
 .services {
-  font-size: 18px;
   line-height: 2.4;
 }
 
