@@ -12,6 +12,7 @@
 }
  
 .hero_title {
+    margin-bottom: 20px;
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 85px;
@@ -23,6 +24,7 @@
 }
 
 .hero_text {
+    margin-bottom: 30px;
     font-family: 'Ubuntu';
     font-weight: 400;
     
@@ -30,6 +32,7 @@
    
 }
 .hero_button {
+    margin-right: 35px;
     font-family: 'Ubuntu';
         font-weight: 500;
         font-size: 25.15px;
@@ -64,5 +67,14 @@ line-height: 1.14;
 .text_customer {
     font-size: 14px; 
     line-height: 1.14;
+    
+}
+
+.customer {
+    width: 305px;
+    height: 93px;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(8.6061px);
+    border-radius: 3% ;
     
 }
