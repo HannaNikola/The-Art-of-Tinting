@@ -1,7 +1,16 @@
 .hero {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.357) 21.1%, rgba(0, 0, 0, 0.7) 66.01%),
 }
-
+.conteiner_hero{
+    display: flex;
+    padding-top: 174px;
+    padding-bottom: 176px ;
+    
+}
+.hero_wraper {
+    width: 684px;
+}
+ 
 .hero_title {
     font-family: 'Ubuntu';
     font-weight: 700;

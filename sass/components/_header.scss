@@ -1,7 +1,30 @@
 .head{
     background-color: #000000;
 }
+
+.container_header {
+    display: flex;
+    text-align: center;
+     
+    padding-top: 32px;
+    padding-bottom: 13px;
+}
+.head_menu {
+    display: flex;
+}
+.head_item {
+margin-right: 20px;
+&:last-child{
+    margin-right: 0;
+}
+
+}
+.header_oder{
+    display: flex;
+    
+}
 .logo{
+    margin-right: 318px;
     font-family: 'Trade Winds';;
     font-weight: 400;
    
@@ -30,12 +53,13 @@ line-height: 1.14;
 }
 }
 .head_button {
+    margin-right: 0;
     width: 160px;
-    height: 45px;
+    
    background-color:#F2C938;
    color:#FFFFFF ;
     cursor: pointer;
-    border-radius: 5px;
+    
     border-radius: solid transparent ;
     &:focus,
         &:hover {
