@@ -460,11 +460,47 @@ body {
 }
 
 .container_coating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 150px;
   padding-bottom: 150px;
 }
 
+.ceramic_group1 {
+  display: block;
+  margin-right: 136px;
+}
+
+.ceramic_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ceramic_list {
+  width: 312px;
+  padding: 33px;
+  border: 1px solid transparent;
+  border-radius: 3%;
+  background-color: #343436;
+  margin-right: 24px;
+}
+.ceramic_list:last-child {
+  margin-right: 0px;
+}
+
+.ceramic_title {
+  margin-bottom: 20px;
+}
+
 .ceramic_text {
+  margin-bottom: 45px;
+  width: 536px;
   line-height: 1.6;
 }
 
@@ -474,11 +510,16 @@ body {
   line-height: 1.4;
   -webkit-text-decoration: underline #F2C938;
           text-decoration: underline #F2C938;
+  margin-bottom: 35px;
 }
 
 .list_item {
   color: #969696;
   font-size: 17px;
+  margin-bottom: 20px;
+}
+.list_item:last-child {
+  margin-bottom: 40px;
 }
 
 .list_button {
@@ -497,11 +538,23 @@ body {
 }
 
 .container_location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 125px;
   padding-bottom: 125px;
 }
 
+.location_group1 {
+  width: 545px;
+}
+
+.navigation_title {
+  margin-bottom: 20px;
+}
+
 .navigation_text {
+  width: 545px;
   line-height: 1.6;
 }
 
@@ -514,9 +567,11 @@ body {
   cursor: pointer;
   width: 109px;
   height: 18px;
+  margin-bottom: 50px;
 }
 
 .navigation_mobail {
+  margin-bottom: 30px;
   line-height: 1.1;
 }
 
@@ -553,7 +608,7 @@ body {
   font-weight: 700;
   font-size: 17px;
   cursor: pointer;
-  display: block;
+  text-align: center;
   padding: 15px 81.5px;
   border-radius: 5px solid #F2C938;
   border-radius: 1px;
@@ -562,23 +617,33 @@ body {
 }
 
 .contacts {
-  background-color: #222224;
+  background-color: #343436;
 }
 
 .container_contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 126px;
   padding-bottom: 80px;
+}
+
+.contacts_group2 {
+  width: 268px;
 }
 
 .contact_text {
   font-size: 16px;
   line-height: 1.8;
+  width: 271px;
+  margin-top: 29px;
 }
 
 .contact_title {
   font-weight: 500;
   font-size: 22px;
   line-height: 1.3;
+  margin-bottom: 25px;
 }
 
 .contact_mobail {
@@ -589,8 +654,13 @@ body {
   line-height: 1.1;
 }
 
-.services {
+.contacts_services {
   line-height: 2.4;
+  margin-bottom: 2px;
+}
+
+.contact_link {
+  margin-bottom: 30px;
 }
 
 .footer {

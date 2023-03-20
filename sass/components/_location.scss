@@ -2,11 +2,18 @@
     background-color: #343436;
 }
 .container_location {
+    display: flex;
     padding-top: 125px;
     padding-bottom: 125px;
 }
+.location_group1{
+   width: 545px; 
+}
+.navigation_title{
+    margin-bottom: 20px;
+}
 .navigation_text {
-    
+    width: 545px;
     line-height: 1.6;
 
 }
@@ -19,10 +26,12 @@
     cursor: pointer;
     width:109px ;
     height: 18px;
+    margin-bottom: 50px;
 
 }
 .navigation_mobail{
-    
+   
+    margin-bottom: 30px;
     line-height:1.1 ;
 }
 
