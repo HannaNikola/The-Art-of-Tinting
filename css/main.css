@@ -92,10 +92,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: auto;
 }
 
 .logo {
-  margin-right: 318px;
+  margin-right: 233px;
   font-family: "Trade Winds";
   font-weight: 400;
   line-height: 1.4;
@@ -121,8 +122,8 @@ body {
 
 .head_button {
   display: inline-block;
-  margin-right: 0px;
   width: 160px;
+  margin-left: 40px;
   background-color: #F2C938;
   color: #FFFFFF;
   cursor: pointer;
