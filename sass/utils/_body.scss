@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
 h1,
 h2,
 h3,
@@ -14,6 +21,7 @@ ul {
     margin: 0;
 
 }
+
 
 .container {
     width: 1350px;

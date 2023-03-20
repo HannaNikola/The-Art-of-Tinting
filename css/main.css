@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -223,7 +230,7 @@ body {
   margin-right: 45px;
 }
 .about_item:last-child {
-  margin: 68px;
+  margin-right: 65px;
 }
 
 .container_about {
