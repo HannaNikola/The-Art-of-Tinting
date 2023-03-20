@@ -66,15 +66,16 @@ line-height: 1.2;
         color: #969696;
 }
 .card_button {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 17px; 
     color:#FFFFFF ;
     background-color: #222224;
     cursor: pointer;
-    width: 175px;
-    height: 42px;
+    display: inline-block;
+    width: 176px;
     border-radius: 5px ;
-    border: solid transparent;
+    border: 1px solid transparent;
+    padding: 11px 25px;
     &:hover,
     &:focus {
         background-color: #969696;;

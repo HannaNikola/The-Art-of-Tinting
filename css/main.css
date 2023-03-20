@@ -84,7 +84,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   padding-top: 32px;
   padding-bottom: 13px;
 }
@@ -107,6 +109,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .logo {
@@ -135,13 +140,19 @@ body {
 }
 
 .head_button {
-  display: inline-block;
-  width: 160px;
-  margin-left: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
   background-color: #F2C938;
   color: #FFFFFF;
+  text-align: center;
+  display: inline-block;
+  width: 160px;
+  padding: 12px 37px;
+  margin-left: 40px;
   cursor: pointer;
-  border-radius: solid transparent;
+  border: 1px solid transparent;
+  border-radius: 5px;
 }
 .head_button:focus, .head_button:hover {
   background-color: #45B26B;
@@ -181,22 +192,20 @@ body {
 }
 
 .hero_button {
-  margin-right: 35px;
   font-family: "Ubuntu";
   font-weight: 500;
-  font-size: 25.15px;
+  font-size: 25px;
   line-height: 1.14;
   color: #FFFFFF;
   background-color: #F2C938;
   cursor: pointer;
-  width: 251.52px;
-  height: 81.74px;
-  border-radius: 6.29px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 35px;
+  width: 251px;
+  border-radius: 6px;
   border: solid transparent;
-  padding-top: 26px;
-  padding-left: 57.5px;
-  padding-bottom: 26px;
-  padding-right: 57.5px;
+  padding: 20px 60px;
 }
 
 .hero_mobail {
@@ -359,15 +368,16 @@ body {
 }
 
 .card_button {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 17px;
   color: #FFFFFF;
   background-color: #222224;
   cursor: pointer;
-  width: 175px;
-  height: 42px;
+  display: inline-block;
+  width: 176px;
   border-radius: 5px;
-  border: solid transparent;
+  border: 1px solid transparent;
+  padding: 11px 25px;
 }
 .card_button:hover, .card_button:focus {
   background-color: #969696;
@@ -448,16 +458,19 @@ body {
   font-size: 15px;
   line-height: 1.14;
   color: #616161;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
 
 .package_button {
   font-weight: 500;
   font-size: 17px;
+  text-align: center;
   color: #FFFFFF;
   background-color: #222224;
   cursor: pointer;
-  height: 42px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 11px 25px;
   width: 170px;
 }
 
@@ -541,11 +554,14 @@ body {
   font-weight: 700;
   font-size: 17px;
   line-height: 1.1;
-  cursor: pointer;
   background-color: #222224;
   color: #FFFFFF;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
   width: 246px;
-  height: 50px;
+  padding: 15px 30px;
 }
 
 .location {
@@ -553,9 +569,6 @@ body {
 }
 
 .container_location {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 125px;
   padding-bottom: 125px;
 }
@@ -580,12 +593,15 @@ body {
   color: #fff;
   background-color: #F2C938;
   cursor: pointer;
-  width: 109px;
-  height: 18px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  width: 545px;
+  padding: 12px 24px;
   margin-bottom: 50px;
 }
 
 .navigation_mobail {
+  display: block;
   margin-bottom: 30px;
   line-height: 1.1;
 }
@@ -596,6 +612,7 @@ body {
 
 .oder {
   background-color: #222224;
+  text-align: center;
 }
 
 .container_oder {
@@ -605,7 +622,6 @@ body {
 
 .title_oder {
   line-height: 1.36;
-  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -613,10 +629,8 @@ body {
   font-family: Ubuntu;
   font-weight: 400;
   line-height: 1.16;
-  text-align: center;
+  display: inline-block;
   width: 793px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 20px;
 }
 
@@ -630,11 +644,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
-  text-align: center;
-  padding: 15px 81.5px;
-  border-radius: 5px solid #F2C938;
-  border-radius: 1px;
-  width: 273.5px;
+  padding: 15px 30px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  width: 246px;
   color: #FFFFFF;
 }
 

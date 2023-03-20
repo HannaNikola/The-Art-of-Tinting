@@ -50,15 +50,21 @@ font-weight: 700;
   font-size: 15px;
   line-height: 1.14;
   color: #616161;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
+
 .package_button {
   font-weight: 500;
-font-size: 17px;
+ font-size: 17px;
+ text-align: center;
   color: #FFFFFF;
   background-color:#222224 ;
+
+
 cursor: pointer;
-height: 42px;
-width: 170px ;
+border: 1px solid transparent;
+border-radius: 5px;
+padding: 11px 25px;
+width: 170px;
 
 }

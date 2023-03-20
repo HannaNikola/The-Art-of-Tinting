@@ -1,10 +1,12 @@
-.head{
+.head {
     background-color: #000000;
+    
 }
 
 .container_header {
     display: flex;
-    text-align: center;
+   align-items: baseline;
+    
      
     padding-top: 32px;
     padding-bottom: 13px;
@@ -22,6 +24,7 @@ margin-right: 20px;
 .header_oder{
     display: flex;
     margin-left: auto;
+    align-items: baseline;
     
 }
 .logo{
@@ -54,15 +57,22 @@ line-height: 1.14;
 }
 }
 .head_button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    background-color: #F2C938;
+    color: #FFFFFF;
+
+
+    text-align: center;
     display: inline-block;
      width: 160px;
+     padding: 12px 37px;
      margin-left: 40px;
+     cursor: pointer;
     
-   background-color:#F2C938;
-   color:#FFFFFF ;
-    cursor: pointer;
-    
-    border-radius: solid transparent ;
+    border: 1px solid transparent ;
+    border-radius: 5px;
     &:focus,
         &:hover {
             background-color: #45B26B;

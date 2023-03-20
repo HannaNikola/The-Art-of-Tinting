@@ -32,24 +32,23 @@
    
 }
 .hero_button {
-    margin-right: 35px;
     font-family: 'Ubuntu';
         font-weight: 500;
-        font-size: 25.15px;
+        font-size: 25px;
         line-height: 1.14;
         color: #FFFFFF;
-        
         background-color: #F2C938;
-cursor: pointer;
- width: 251.52px ;
-  height:81.74px ;  
- border-radius: 6.29px ;
- border: solid transparent;
 
-   padding-top: 26px;
-  padding-left: 57.5px;
-   padding-bottom: 26px;
-   padding-right: 57.5px;
+     cursor: pointer;
+     display: inline-block;
+     text-align: center;
+     margin-right: 35px;
+     width: 251px ;
+    
+     border-radius: 6px ;
+     border: solid transparent;
+    padding: 20px 60px;
+    
 }
 
 .hero_mobail {

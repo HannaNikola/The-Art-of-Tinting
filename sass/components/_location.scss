@@ -2,7 +2,7 @@
     background-color: #343436;
 }
 .container_location {
-    display: flex;
+    
     padding-top: 125px;
     padding-bottom: 125px;
 }
@@ -23,14 +23,17 @@
     line-height: 1.1;
     color: #fff;
     background-color: #F2C938;
+
     cursor: pointer;
-    width:109px ;
-    height: 18px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    width: 545px;
+    padding: 12px 24px;
     margin-bottom: 50px;
 
 }
 .navigation_mobail{
-   
+   display: block;
     margin-bottom: 30px;
     line-height:1.1 ;
 }
