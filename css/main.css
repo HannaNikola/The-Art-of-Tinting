@@ -382,7 +382,7 @@ body {
 }
 
 .protect_group {
-  margin-right: 75px;
+  margin-right: 35px;
 }
 
 .protect_title {
@@ -408,7 +408,7 @@ body {
   border-radius: 1px solid transparent;
   background-color: #343436;
   border-radius: 5%;
-  margin-right: 66px;
+  margin-right: 20px;
 }
 .package:last-child {
   margin: 0px;
