@@ -1,11 +1,25 @@
 .about{
 background-color: #222224;
 }
+.about_menu {
+    display: flex;
+    align-items: baseline;
+}
+.about_item {
+    width: 246px;
+    margin-right: 45px;
+
+    &:last-child {
+        margin: 68px;
+    }
+}
 .container_about{
+    display: flex;
     padding-top: 100px ;
     padding-bottom: 105px;
 }
 .about_title {
+    margin-bottom: 20px;
     text-transform: uppercase;
 
 }
@@ -18,7 +32,9 @@ background-color: #222224;
 font-weight: 700;
 font-size: 46px;
 line-height: 1.35;
+margin-bottom: 20px;
 }
 .about_second_text {
     line-height: 1.5;
+    width: 426px;
 }
