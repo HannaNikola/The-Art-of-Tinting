@@ -1,5 +1,9 @@
 .hero {
+
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.357) 21.1%, rgba(0, 0, 0, 0.7) 66.01%),
+    url(../images/background-yelow-car.jpg);
+    
+    
 }
 .conteiner_hero{
     display: flex;
@@ -40,7 +44,7 @@
         background-color: #F2C938;
 
      cursor: pointer;
-     display: inline-block;
+     display: block;
      text-align: center;
      margin-right: 35px;
      width: 251px ;
@@ -75,7 +79,7 @@ line-height: 1.14;
     width: 305px;
     height: 93px;
     background: rgba(255, 255, 255, 0.35);
-    backdrop-filter: blur(8.6061px);
+     backdrop-filter: blur(8.6061px);
     border-radius: 3% ;
     
 }
