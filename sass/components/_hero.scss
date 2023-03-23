@@ -1,6 +1,6 @@
 
 .hero {
- background: url(../images/background-yelow-car.png),linear-gradient(90deg, rgba(0, 0, 0, 0.357) 21.1%, rgba(0, 0, 0, 0.7) 66.01%),linear-gradient(90deg, rgba(0, 0, 0, 0.357) 21.1%, rgba(0, 0, 0, 0.7) 66.01%);
+ background: url("../images/background-yelow-car.png" ) ,linear-gradient(90deg, rgba(0, 0, 0, 0.357) 21.1%, rgba(0, 0, 0, 0.7) 66.01%),linear-gradient(90deg, rgba(0, 0, 0, 0.357) 21.1%, rgba(0, 0, 0, 0.7) 66.01%);
 }
     
     
@@ -70,6 +70,7 @@ line-height: 1.14;
 .text_customer {
     font-size: 14px; 
     line-height: 1.14;
+    margin-bottom: 1px;
     
 }
 
