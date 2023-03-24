@@ -30,16 +30,13 @@ display: flex;
 border: 2px solid transparent;
 border-radius: 10px;
 background-color: #343436;
-padding: 25px;
+padding: 25px 0;
 }
 .window_card {
 text-align: center;
 width: 220px;
 border-right: 2px solid #3D3D40;
-margin-right: 30px;
 padding: 40px 10px;
-
-
 &:last-child {
     margin-right: 0px;
     border-right: none;

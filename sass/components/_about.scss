@@ -4,14 +4,15 @@ background-color: #222224;
 .about_menu {
     display: flex;
     align-items: baseline;
+   
 }
 .about_item {
     width: 246px;
     margin-right: 45px;
 
     &:last-child {
-        margin-right: 65px;
-    }
+        margin-right: 32px;
+       }
 }
 .container_about{
     display: flex;
@@ -28,6 +29,10 @@ background-color: #222224;
     line-height: 1.15;
     color: #EDEDED;
 }
+.about_second {
+    border-left: 2px solid #3D3D40 ;
+    
+}
 .about_second_title{
 font-weight: 700;
 font-size: 46px;
@@ -37,4 +42,5 @@ margin-bottom: 20px;
 .about_second_text {
     line-height: 1.5;
     width: 426px;
+    
 }
