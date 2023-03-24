@@ -20,7 +20,7 @@ margin-bottom: 20px;
         font-weight: 400;
        line-height: 1.16;
        
-        display: block;
+        margin: auto;
         text-align: center;
         width: 793px;
         margin-bottom: 20px;
@@ -43,5 +43,10 @@ border: 1px solid transparent ;
 border-radius: 5px;
  width: 246px;
  color: #FFFFFF;
+
+ &:hover,
+ :focus {
+    background-color: #45B26B;
+ }
 
 }

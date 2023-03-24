@@ -1,5 +1,6 @@
 .proposition {
     background-color:  #28282A;
+    position: relative;
 }
 .container_window{
     display: flex;
@@ -84,4 +85,10 @@ line-height: 1.2;
 .window_img {
     display: flex;
     
+}
+.right-photo {
+position: absolute ;
+left: 220px;
+
+
 }

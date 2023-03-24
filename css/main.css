@@ -195,6 +195,12 @@ body {
   line-height: 1.5;
 }
 
+.wraper_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .hero_button {
   font-family: "Ubuntu";
   font-weight: 500;
@@ -295,6 +301,7 @@ body {
 
 .proposition {
   background-color: #28282A;
+  position: relative;
 }
 
 .container_window {
@@ -392,6 +399,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.right-photo {
+  position: absolute;
+  left: 220px;
 }
 
 .video {
@@ -643,7 +655,7 @@ body {
   font-family: Ubuntu;
   font-weight: 400;
   line-height: 1.16;
-  display: block;
+  margin: auto;
   text-align: center;
   width: 793px;
   margin-bottom: 20px;
@@ -664,6 +676,10 @@ body {
   border-radius: 5px;
   width: 246px;
   color: #FFFFFF;
+}
+.oder-button:hover,
+.oder-button :focus {
+  background-color: #45B26B;
 }
 
 .contacts {
