@@ -1,11 +1,12 @@
 .proposition {
     background-color:  #28282A;
-    position: relative;
+    
 }
 .container_window{
     display: flex;
     padding-top: 150px;
-    padding-bottom: 150px ;
+    padding-bottom: 150px;
+     position: relative;
 }
 .window_text_group{
     display: column;
@@ -88,7 +89,7 @@ line-height: 1.2;
 }
 .right-photo {
 position: absolute ;
-left: 220px;
+right: 1400px;
 
 
 }
@@ -98,7 +99,7 @@ left: 220px;
 .black-dot{
     position: absolute;
     top: 700px;
-    left: 1530px;
+    left: 1200px;
     
 }
 .proposition_img {
