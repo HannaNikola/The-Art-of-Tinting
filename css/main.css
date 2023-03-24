@@ -436,6 +436,7 @@ body {
   height: 783px;
   margin: auto;
   background-size: cover;
+  z-index: 1;
 }
 
 .offer {
@@ -552,6 +553,7 @@ body {
   display: flex;
   padding-top: 150px;
   padding-bottom: 150px;
+  position: relative;
 }
 
 .img-logo {
@@ -627,6 +629,12 @@ body {
   padding: 15px 30px;
 }
 
+.ceramic-img-side {
+  position: absolute;
+  top: 50px;
+  left: 1400px;
+}
+
 .location {
   background-color: #343436;
 }
@@ -681,6 +689,7 @@ body {
 .container_oder {
   padding-top: 100px;
   padding-bottom: 100px;
+  position: relative;
 }
 
 .title_oder {
@@ -717,6 +726,14 @@ body {
 .oder-button:hover,
 .oder-button :focus {
   background-color: #45B26B;
+}
+
+.oder-shape-png {
+  position: absolute;
+  left: 1400px;
+  top: 50px;
+  height: 231px;
+  width: 231px;
 }
 
 .contacts {
