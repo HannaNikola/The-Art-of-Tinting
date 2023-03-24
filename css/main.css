@@ -448,6 +448,13 @@ body {
   display: flex;
   padding-top: 150px;
   padding-bottom: 150px;
+  position: relative;
+}
+
+.img-protection {
+  position: absolute;
+  right: 1500px;
+  top: 50px;
 }
 
 .protect_group {
@@ -516,6 +523,14 @@ body {
   border-radius: 5px;
   padding: 11px 25px;
   width: 170px;
+}
+
+.shape_dot_black {
+  position: absolute;
+  width: 176px;
+  height: 176px;
+  left: 1300px;
+  top: -50px;
 }
 
 .gallary {
