@@ -454,8 +454,8 @@ body {
 
 .img-protection {
   position: absolute;
-  right: 1500px;
-  top: 50px;
+  left: -237px;
+  bottom: 40px;
 }
 
 .protect_group {
@@ -530,8 +530,8 @@ body {
   position: absolute;
   width: 176px;
   height: 176px;
-  left: 1500px;
-  top: -50px;
+  right: -150px;
+  top: -10px;
 }
 
 .gallary {
@@ -631,8 +631,8 @@ body {
 
 .ceramic-img-side {
   position: absolute;
-  top: 50px;
-  left: 1400px;
+  right: -237px;
+  bottom: 50px;
 }
 
 .location {
@@ -730,8 +730,8 @@ body {
 
 .oder-shape-png {
   position: absolute;
-  left: 1400px;
-  top: 50px;
+  right: -399px;
+  top: 100px;
   height: 231px;
   width: 231px;
 }
