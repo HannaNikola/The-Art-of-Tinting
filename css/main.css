@@ -288,6 +288,7 @@ body {
 }
 
 .about_second {
+  display: block;
   border-left: 2px solid #3D3D40;
 }
 
@@ -410,6 +411,7 @@ body {
 .right-photo {
   position: absolute;
   right: 1400px;
+  top: 75px;
 }
 
 .yelow-dot {
@@ -419,7 +421,7 @@ body {
 .black-dot {
   position: absolute;
   top: 700px;
-  left: 1200px;
+  left: 1150px;
 }
 
 .proposition_img {
