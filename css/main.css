@@ -335,19 +335,22 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: #343436;
+  padding: 25px;
 }
 
 .window_card {
   text-align: center;
-  width: 214px;
-  border: 1px solid transparent;
-  border-radius: 5%;
+  width: 220px;
+  border-right: 2px solid #3D3D40;
   margin-right: 30px;
   padding: 40px 10px;
-  background-color: #343436;
 }
 .window_card:last-child {
   margin-right: 0px;
+  border-right: none;
 }
 
 .card_material {
