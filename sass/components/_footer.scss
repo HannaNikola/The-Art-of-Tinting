@@ -1,9 +1,11 @@
 .footer {
     background-color: #161617;
+    
 }
 .container_footer {
     padding-top:  15px;
     padding-bottom: 15px;
+    display: flex;
 }
 .footer_text{
     font-size: 12px;
@@ -11,3 +13,13 @@
     color: #777E90;
 }
 
+.social_link_footer{
+display: flex;
+margin-right: 0px;
+}
+.icon-fb{
+fill: 777E90;
+}
+.icon-insta{
+    fill: 777E90;
+}
