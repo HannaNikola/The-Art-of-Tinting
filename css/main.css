@@ -420,7 +420,7 @@ body {
 
 .black-dot {
   position: absolute;
-  bottom: 50px;
+  bottom: 150px;
   right: 30px;
 }
 
@@ -436,7 +436,6 @@ body {
   height: 783px;
   margin: auto;
   background-size: cover;
-  z-index: 1;
 }
 
 .offer {
@@ -531,7 +530,7 @@ body {
   width: 176px;
   height: 176px;
   right: -150px;
-  top: -10px;
+  top: 0px;
 }
 
 .gallary {
