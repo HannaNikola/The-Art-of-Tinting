@@ -13,6 +13,7 @@ margin: 0 auto;
     display: flex;
     padding-top: 174px;
     padding-bottom: 176px ;
+    position: relative;
     
 }
 .hero_wraper {
@@ -41,6 +42,7 @@ margin: 0 auto;
 }
 .wraper_button{
     display: flex;
+     align-items: baseline;
 }
 .hero_button {
     font-family: 'Ubuntu';
@@ -65,6 +67,7 @@ margin: 0 auto;
 .hero_mobail {
 font-size: 31.68px;
 line-height: 1.14;
+ display: flex;
 
 }
 .customer_number {
@@ -89,5 +92,22 @@ line-height: 1.14;
      background: rgba(255, 255, 255, 0.35);
       backdrop-filter: blur(8.6061px);
      border-radius: 3% ;
+     position: absolute;
+     bottom: 176px;
+     right: 15px;
     
+}
+.icon-phone-hero {
+    fill: #F2C938;
+    display: flex;
+    margin-right: 15px;
+
+
+   
+}
+.icon-corner{
+    fill: #F2C938;
+    position: absolute;
+    top: 218px;
+    right: 528px;
 }

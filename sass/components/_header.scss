@@ -25,12 +25,7 @@ margin-right: 20px;
 }
 
 }
-.header_oder{
-    display: flex;
-    margin-left: auto;
-    align-items: baseline;
-    
-}
+
 .logo{
     margin-right: 233px;
     font-family: 'Trade Winds';;
@@ -49,6 +44,14 @@ line-height:1.16 ;
 &:hover {
 color:#F2C938;
 }
+
+}
+
+.header_oder {
+    display: flex;
+    margin-left: auto;
+    align-items:center ;
+    align-items: baseline;
 
 }
 
@@ -81,4 +84,11 @@ line-height: 1.14;
         &:hover {
             background-color: #45B26B;
         }
+}
+
+.icon-phone-head{
+    fill: #F2C938;
+    margin-right: 10px;
+    align-items: baseline;
+   
 }
