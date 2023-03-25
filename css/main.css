@@ -840,11 +840,18 @@ body {
   margin-bottom: 25px;
 }
 
-.contact_mobail {
-  line-height: 1.1;
+.icon-phone-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #FFFFFF;
+  margin-right: 25px;
 }
 
-.contact_adress {
+.contact_mobail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   line-height: 1.1;
 }
 
@@ -855,6 +862,21 @@ body {
 
 .contact_link {
   margin-bottom: 30px;
+}
+
+.contact_adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.1;
+}
+
+.icon-map-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #FFFFFF;
+  margin-right: 25px;
 }
 
 .footer {
@@ -879,13 +901,21 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 0px;
 }
 
 .icon-fb {
-  fill: 777000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #777E90;
+  margin-right: 15px;
+  display: flex;
+  padding: 1px;
 }
 
 .icon-insta {
-  fill: 777000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #777E90;
 }/*# sourceMappingURL=main.css.map */
