@@ -85,9 +85,14 @@ line-height: 1.14;
     right: 528px;
 }
 
+
 .customer {
     display: flex;
-    padding: 14px 26px;
+    padding-left: 26px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    padding-bottom: 14px;
+
 
     width: 305px;
     height: 93px;
@@ -99,12 +104,28 @@ line-height: 1.14;
     right: 15px;
 
 }
+
+.wrapper_img_customer {
+    display: flex;
+    align-items: center;
+    margin-right: 41px;
+}
+
+.elips_customer {
+    display: flex;
+    margin: -15px;
+
+}
+
+
 .customer_number {
     
     font-weight: 700;
     font-size: 30px;
     line-height: 1.14;
     margin-bottom: 4px;
+    display: flex;
+    
    
 }
 
@@ -114,6 +135,7 @@ line-height: 1.14;
     line-height: 1.14;
     margin-bottom: 1px;
     margin-bottom: 4px;
+  
     
 }
 .wrap_star{
@@ -121,14 +143,6 @@ line-height: 1.14;
 }
 .icon-star{
     fill: #F2C938;
-   
-}
-.wrapper_img_customer{
-    display: flex;
-}
+   }
 
-.elips_customer {
- display: flex;
- margin: -15px;
 
-}

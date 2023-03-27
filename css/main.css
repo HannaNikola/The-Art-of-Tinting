@@ -267,7 +267,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 14px 26px;
+  padding-left: 26px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-bottom: 14px;
   width: 305px;
   height: 93px;
   background: rgba(255, 255, 255, 0.35);
@@ -279,11 +282,31 @@ body {
   right: 15px;
 }
 
+.wrapper_img_customer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 41px;
+}
+
+.elips_customer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -15px;
+}
+
 .customer_number {
   font-weight: 700;
   font-size: 30px;
   line-height: 1.14;
   margin-bottom: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .text_customer {
@@ -302,19 +325,6 @@ body {
 
 .icon-star {
   fill: #F2C938;
-}
-
-.wrapper_img_customer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.elips_customer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: -15px;
 }
 
 .about {
