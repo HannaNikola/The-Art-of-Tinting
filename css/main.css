@@ -105,7 +105,7 @@ body {
 }
 
 .logo {
-  margin-right: 233px;
+  margin-right: 174px;
   font-family: "Trade Winds";
   font-weight: 400;
   line-height: 1.4;
@@ -218,9 +218,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero_button {
@@ -233,7 +233,7 @@ body {
   cursor: pointer;
   display: block;
   text-align: center;
-  margin-right: 35px;
+  margin-right: 38px;
   width: 251px;
   border-radius: 6px;
   border: solid transparent;
@@ -254,6 +254,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-right: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .icon-corner {
@@ -289,6 +292,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 114px;
   margin-right: 41px;
 }
 
@@ -296,10 +300,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: -15px;
+  margin-left: -25px;
+}
+.elips_customer:first-child {
+  margin-left: 0px;
+}
+
+.wrapper_customer_text {
+  text-align: center;
+  width: 96px;
 }
 
 .customer_number {
+  margin-right: 0px;
   font-weight: 700;
   font-size: 30px;
   line-height: 1.14;
@@ -307,6 +320,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .text_customer {
@@ -321,9 +337,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .icon-star {
+  width: 10px;
+  height: 10px;
   fill: #F2C938;
 }
 
