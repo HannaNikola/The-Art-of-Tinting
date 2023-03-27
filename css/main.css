@@ -949,10 +949,13 @@ body {
 }
 
 .icon-map-location {
+  width: 26px;
+  height: 26px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   fill: #FFFFFF;
+  margin: 0px;
   margin-right: 25px;
 }
 
