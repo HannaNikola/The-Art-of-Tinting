@@ -129,14 +129,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  align-items: center;
 }
 
 .head_mobail {
   font-size: 20px;
   line-height: 1.14;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .head_mobail:focus, .head_mobail:hover {
   color: #F2C938;
@@ -164,9 +168,12 @@ body {
 .icon-phone-head {
   fill: #F2C938;
   margin-right: 10px;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero {
@@ -895,6 +902,9 @@ body {
   font-size: 12px;
   line-height: 1.6;
   color: #777E90;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .social_link_footer {

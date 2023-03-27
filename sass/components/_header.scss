@@ -1,9 +1,5 @@
 .head {
     background-color: #000000;
-   
-        
-   
-    
 }
 
 .container_header {
@@ -51,13 +47,17 @@ color:#F2C938;
     display: flex;
     margin-left: auto;
     align-items:center ;
-    align-items: baseline;
+    align-items: center;
 
 }
 
 .head_mobail{
 font-size: 20px;
 line-height: 1.14;
+display: flex;
+align-items: center;
+
+
 &:focus,
 &:hover {
     color: #F2C938;
@@ -86,9 +86,12 @@ line-height: 1.14;
         }
 }
 
-.icon-phone-head{
+.icon-phone-head {
     fill: #F2C938;
     margin-right: 10px;
-    align-items: baseline;
+    display: flex;
+    align-items: center;
+    
+
    
 }
