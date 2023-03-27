@@ -5,6 +5,36 @@
    height: 783px;
    margin: auto;
    background-size: cover;
+   position: relative;
  
    
+}
+.lable_video{
+   display: flex;
+   width: 285px;
+   position: absolute;
+   bottom: 50px;
+   right: 400px;
+}
+
+.wrapper_text_video{
+   background-color: #222224;
+   border: 1px solid transparent;
+   width: 215px;
+   padding: 12px 3px 11px 38px;
+}
+
+.lable_text{
+font-size: 18px;
+   font-weight: 400px;
+   width: 180px;
+}
+
+.wrap_icon_lable{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 70px;
+   background-color: #F2C938;
+    border-top-right-radius: 10px;
 }
