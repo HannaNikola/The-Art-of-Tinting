@@ -572,6 +572,7 @@ body {
   height: 783px;
   margin: 0 auto;
   background-size: cover;
+  background-position: top;
   position: relative;
 }
 
@@ -781,6 +782,9 @@ body {
 }
 
 .list_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #969696;
   font-size: 17px;
   margin-bottom: 20px;
@@ -791,9 +795,17 @@ body {
 
 .list_item::before {
   content: "";
-  background-image: url "../sass/images/symbol-defs.svg#icon-tickcircle";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../images/symbol-defs.svg#icon-tickcircle");
   height: 21px;
   width: 21px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 6px;
+  fill: #F2C938;
 }
 
 .list_button {

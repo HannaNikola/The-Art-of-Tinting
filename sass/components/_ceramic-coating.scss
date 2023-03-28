@@ -47,6 +47,7 @@ margin-right: 136px;
 }
 
 .list_item {
+display: flex;
 color:#969696;
 font-size: 17px;
 margin-bottom: 20px;
@@ -57,9 +58,13 @@ margin-bottom: 20px;
 
 .list_item::before {
     content: "";
-   background-image: url ("../sass/images/symbol-defs.svg#icon-tickcircle");
+    display: flex;
+   background-image: url("../images/symbol-defs.svg#icon-tickcircle");
     height: 21px;
     width: 21px;
+    align-items: center;
+    margin-right: 6px;
+    fill:#F2C938;
 }
 
 
