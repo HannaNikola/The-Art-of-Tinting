@@ -364,9 +364,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
 }
 
 .about_item {
@@ -377,18 +374,7 @@ body {
   margin-right: 32px;
 }
 
-.about_title {
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-.about_text {
-  font-size: 16px;
-  line-height: 1.15;
-  color: #EDEDED;
-}
-
-.icon-square {
+.wrapper_icon_about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -400,9 +386,45 @@ body {
           justify-content: center;
 }
 
+.icon-square {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  margin: 0auto;
+}
+
+.icon-star-beetwen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.icon-security {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.about_title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about_text {
+  font-size: 16px;
+  line-height: 1.15;
+  color: #EDEDED;
+}
+
 .about_second {
-  display: block;
+  display: display;
   border-left: 2px solid #3D3D40;
+  padding-left: 34px;
+  padding-top: 20px;
 }
 
 .about_second_title {

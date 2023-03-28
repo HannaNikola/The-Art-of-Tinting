@@ -9,7 +9,7 @@ background-color: #222224;
 }
 .about_menu {
     display: flex;
-    align-items: baseline;
+    
    
 }
 .about_item {
@@ -22,9 +22,31 @@ background-color: #222224;
        }
 }
 
+.wrapper_icon_about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-square {
+    display: flex;
+     margin-bottom: 30px;
+     margin: 0auto;
+
+    
+}
+.icon-star-beetwen{
+    display: flex;
+    margin-bottom: 30px;
+}
+.icon-security{
+    display: flex;
+    margin-bottom: 30px;
+}
+
 .about_title {
     margin-bottom: 20px;
     text-transform: uppercase;
+    text-align: center;
 
 }
 .about_text{
@@ -32,11 +54,7 @@ background-color: #222224;
     line-height: 1.15;
     color: #EDEDED;
 }
-.icon-square{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 
 
@@ -47,8 +65,10 @@ background-color: #222224;
 
 
 .about_second {
-    display: block;
+    display: display;
     border-left: 2px solid #3D3D40 ;
+    padding-left: 34px;
+    padding-top: 20px;
     
 }
 .about_second_title{
