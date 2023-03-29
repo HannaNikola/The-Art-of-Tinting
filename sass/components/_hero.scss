@@ -64,6 +64,10 @@
      border-radius: 6px ;
      border: solid transparent;
     padding: 20px 60px;
+    &:hover,
+        &:focus {
+            background-color: #45B26B;
+        }
     
 }
 
