@@ -338,17 +338,30 @@
             Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
             molestie vel, ornare non id blandit netus.
           </p>
-          <form action="">
-            <label for="">
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-              <input type="text" />
-            </label>
+          <form action="" class="local_form">
+            <div class="form_element_location">
+              <label for="name-locat">Name<span>*</span></label>
+              <input type="text" id="name-locat" required>
+            </div>
+            <div class="form_element_location">
+              <label for="tel-locat">Phone number<span>*</span></label>
+            <input type="tel" id="tel-locat" required>
+          </div>
+            <div class="form_element_location">
+              <label for="email-locat">Email</label>
+              <input type="email" id="email-locat"  > 
+            </div>
+            <div class="form_element_location">
+              <label for="massage-locat">Message</label>
+              <input type="text" id="massage-locat">
+            </div>
             <button class="navigation_button">Send Message</button>
           </form>
-          <address>
-            <a class="link navigation_mobail" href="tel:+1477811116 "> <svg class="icon-phone-location" width="26" height="26">
+        </div>
+        <div class="group-2">
+          <div>
+          <address class="adress_location">
+            <a class="link navigation_mobail" href="tel:+1477811116 "><svg class="icon-map" width="26" height="26">
               <use xlink:href="./sass/images/symbol-defs.svg#icon-phone-call"></use>
             </svg>+1 (647) 781-1116</a>
             <a
@@ -356,14 +369,15 @@
               href="https://goo.gl/maps/ZBF5TuJLD71QgP2G8"
               target="_blank"
               rel=" noopener noopener nofollow"
-              > 348 Bronte St. S Unit #15, Milton, ON L9T 0H7</a >
+              > <svg class="icon-map" width="26" height="26"><use xlink:href="./sass/images/symbol-defs.svg#icon-map-location"></use></svg> 348 Bronte St. S Unit #15, Milton, ON L9T 0H7</a >
           </address>
-          <ul class="list">
-            <li><svg></svg></li>
-            <li><svg></svg></li>
-          </ul>
-        </div>
-      </div>
+          </div>
+          <div class="list social_icon_location">
+            <svg class="icon-fb-location" width="33" height="33"><use xlink:href="./sass/images/symbol-defs.svg#icon-fb"></use></svg>
+            <svg class="icon-insta-location" width="33" height="33"><use xlink:href="./sass/images/symbol-defs.svg#icon-insta"></use></svg>
+          </div>
+          </div>
+         </div>
     </section>
     <!-- oder -->
     <section class="oder">

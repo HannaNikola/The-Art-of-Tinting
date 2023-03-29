@@ -851,6 +851,21 @@ body {
   line-height: 1.6;
 }
 
+.form_element_location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 545px;
+  margin-bottom: 20px;
+  background-color: #343436;
+  border: none;
+  border-radius: 1px solid #E0E0E0;
+}
+
 .navigation_button {
   font-weight: 700;
   font-size: 16px;
@@ -865,14 +880,67 @@ body {
   margin-bottom: 50px;
 }
 
+.group-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.adress_location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 268px;
+  margin-right: 60px;
+}
+
 .navigation_mobail {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-bottom: 30px;
   line-height: 1.1;
 }
 
 .navigation_adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   line-height: 1.1;
+}
+
+.icon-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  fill: #fff;
+  margin-right: 25px;
+}
+
+.social_icon_location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-fb-location {
+  border-radius: 33px;
+  background-color: #161617;
+  padding: 5px;
+  margin-right: 33px;
+}
+
+.icon-insta-location {
+  border-radius: 33px;
+  background-color: #F2C938;
+  padding: 5px;
 }
 
 .oder {
