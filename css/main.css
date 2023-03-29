@@ -798,7 +798,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url("../images/symbol-defs.svg#icon-tickcircle");
+  background-image: url("../sass/images/symbol-defs.svg#icon-tickcircle");
   height: 21px;
   width: 21px;
   -webkit-box-align: center;
@@ -829,7 +829,8 @@ body {
 }
 
 .location {
-  background-color: #343436;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(55%, #343436), color-stop(45%, #616161));
+  background-image: linear-gradient(to right, #343436 55%, #616161 45%);
 }
 
 .container_location {

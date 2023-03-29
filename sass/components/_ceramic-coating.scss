@@ -59,7 +59,7 @@ margin-bottom: 20px;
 .list_item::before {
     content: "";
     display: flex;
-   background-image: url("../images/symbol-defs.svg#icon-tickcircle");
+   background-image: url("../sass/images/symbol-defs.svg#icon-tickcircle");
     height: 21px;
     width: 21px;
     align-items: center;
