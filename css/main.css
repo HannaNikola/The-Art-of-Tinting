@@ -829,8 +829,8 @@ body {
 }
 
 .location {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(55%, #343436), color-stop(45%, #616161));
-  background-image: linear-gradient(to right, #343436 55%, #616161 45%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(60%, #343436), color-stop(40%, #616161));
+  background-image: linear-gradient(to right, #343436 60%, #616161 40%);
 }
 
 .container_location {
@@ -849,6 +849,7 @@ body {
 .navigation_text {
   width: 545px;
   line-height: 1.6;
+  margin-bottom: 40px;
 }
 
 .form_element_location {
@@ -859,11 +860,21 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 545px;
   margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.input_locat {
   background-color: #343436;
   border: none;
-  border-radius: 1px solid #E0E0E0;
+  border: 1px solid #E0E0E0;
+  height: 50px;
+  width: 545px;
+  padding: 10px;
+}
+
+.accent {
+  color: red;
 }
 
 .navigation_button {
