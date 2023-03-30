@@ -3,7 +3,7 @@
     
 }
 .container_location {
-    
+    position: relative;
     padding-top: 125px;
     padding-bottom: 125px;
 }
@@ -124,4 +124,11 @@ display: flex;
         &:focus{
            fill: #F2C938;
         }
+}
+
+// google-map
+.map{
+    position: absolute;
+    top: 100px;
+    right: 0px;
 }

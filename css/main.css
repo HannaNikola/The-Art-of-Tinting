@@ -842,6 +842,7 @@ a {
 }
 
 .container_location {
+  position: relative;
   padding-top: 125px;
   padding-bottom: 125px;
 }
@@ -969,6 +970,12 @@ a {
 }
 .icon-insta-location:hover, .icon-insta-location:focus {
   fill: #F2C938;
+}
+
+.map {
+  position: absolute;
+  top: 100px;
+  right: 0px;
 }
 
 .oder {
