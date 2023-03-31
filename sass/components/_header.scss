@@ -11,9 +11,7 @@
 .logo {
     margin-right: 174px;
     font-family: 'Trade Winds';
-    ;
     font-weight: 400;
-
     line-height: 1.4;
     color: #F2C938;
     text-transform: capitalize;
@@ -52,10 +50,11 @@ color:#F2C938;
 }
 
 .head_mobail{
+ display: flex;
+align-items: center;
+
 font-size: 20px;
 line-height: 1.14;
-display: flex;
-align-items: center;
 
 
 &:focus,
@@ -92,11 +91,9 @@ align-items: center;
 }
 
 .icon-phone-head {
-    fill: #F2C938;
-    margin-right: 10px;
     display: flex;
     align-items: center;
-    
 
-   
-}
+    fill: #F2C938;
+    margin-right: 10px;
+    }
