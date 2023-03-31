@@ -96,6 +96,15 @@ a {
   padding-bottom: 13px;
 }
 
+.logo {
+  margin-right: 174px;
+  font-family: "Trade Winds";
+  font-weight: 400;
+  line-height: 1.4;
+  color: #F2C938;
+  text-transform: capitalize;
+}
+
 .head_menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,15 +116,6 @@ a {
 }
 .head_item:last-child {
   margin-right: 0;
-}
-
-.logo {
-  margin-right: 174px;
-  font-family: "Trade Winds";
-  font-weight: 400;
-  line-height: 1.4;
-  color: #F2C938;
-  text-transform: capitalize;
 }
 
 .head_link {
@@ -165,9 +165,13 @@ a {
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 5px;
+  -webkit-transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .head_button:focus, .head_button:hover {
   background-color: #45B26B;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-phone-head {
@@ -195,9 +199,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   padding-top: 174px;
   padding-bottom: 176px;
-  position: relative;
 }
 
 .hero_wraper {
@@ -220,6 +224,13 @@ a {
   line-height: 1.5;
 }
 
+.icon-corner {
+  fill: #F2C938;
+  position: absolute;
+  top: 218px;
+  right: 528px;
+}
+
 .wraper_button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,14 +250,18 @@ a {
   cursor: pointer;
   display: block;
   text-align: center;
-  margin-right: 38px;
   width: 251px;
+  margin-right: 38px;
+  padding: 20px 60px;
   border-radius: 6px;
   border: solid transparent;
-  padding: 20px 60px;
+  -webkit-transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero_button:hover, .hero_button:focus {
   background-color: #45B26B;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero_mobail {
@@ -262,36 +277,26 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 15px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.icon-corner {
-  fill: #F2C938;
-  position: absolute;
-  top: 218px;
-  right: 528px;
+  margin-right: 15px;
 }
 
 .customer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 26px;
-  padding-right: 14px;
-  padding-bottom: 14px;
-  padding-bottom: 14px;
   width: 305px;
   height: 93px;
+  bottom: 176px;
+  right: 15px;
+  padding: 14px 14px 14px 26px;
   background: rgba(255, 255, 255, 0.35);
   -webkit-backdrop-filter: blur(8.6061px);
           backdrop-filter: blur(8.6061px);
   border-radius: 3%;
   position: absolute;
-  bottom: 176px;
-  right: 15px;
 }
 
 .wrapper_img_customer {
@@ -321,24 +326,23 @@ a {
 }
 
 .customer_number {
-  margin-right: 0px;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 1.14;
-  margin-bottom: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-right: 0px;
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.14;
 }
 
 .text_customer {
   display: block;
   font-size: 14px;
   line-height: 1.14;
-  margin-bottom: 1px;
   margin-bottom: 4px;
 }
 
