@@ -73,6 +73,11 @@ border: 1px solid transparent;
 border-radius: 5px;
 padding: 11px 25px;
 width: 170px;
+&:hover,
+  &:focus {
+    background-color: #969696;
+    ;
+  }
 
 }
 .shape_dot_black {

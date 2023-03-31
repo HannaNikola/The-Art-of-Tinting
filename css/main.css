@@ -708,6 +708,9 @@ a {
   padding: 11px 25px;
   width: 170px;
 }
+.package_button:hover, .package_button:focus {
+  background-color: #969696;
+}
 
 .shape_dot_black {
   position: absolute;
@@ -806,7 +809,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url("../sass/images/symbol-defs.svg#icon-tickcircle");
+  background-image: url("../images/symbol-defs.svg#icon-symantec");
   height: 21px;
   width: 21px;
   -webkit-box-align: center;
@@ -828,6 +831,9 @@ a {
   border: 1px solid transparent;
   width: 246px;
   padding: 15px 30px;
+}
+.list_button:hover, .list_button:focus {
+  background-color: #969696;
 }
 
 .ceramic-img-side {

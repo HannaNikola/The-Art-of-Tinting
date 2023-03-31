@@ -59,10 +59,11 @@ margin-bottom: 20px;
 .list_item::before {
     content: "";
     display: flex;
-   background-image: url("../sass/images/symbol-defs.svg#icon-tickcircle");
+   background-image: url("../images/symbol-defs.svg#icon-symantec");
     height: 21px;
     width: 21px;
     align-items: center;
+    
     margin-right: 6px;
     fill:#F2C938;
 }
@@ -81,6 +82,11 @@ margin-bottom: 20px;
     border: 1px solid transparent;
     width: 246px;
    padding: 15px 30px;
+&:hover,
+    &:focus {
+        background-color: #969696;
+        ;
+    }
 
 }
 .ceramic-img-side{
