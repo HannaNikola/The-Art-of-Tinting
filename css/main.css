@@ -579,8 +579,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 285px;
   position: absolute;
+  width: 285px;
   bottom: 50px;
   right: 400px;
 }
@@ -733,13 +733,19 @@ a {
   position: relative;
 }
 
-.img-logo {
-  margin-bottom: 40px;
-}
-
 .ceramic_group1 {
   display: block;
   margin-right: 136px;
+}
+
+.ceramic_title {
+  margin-bottom: 20px;
+}
+
+.ceramic_text {
+  margin-bottom: 45px;
+  width: 536px;
+  line-height: 1.6;
 }
 
 .ceramic_menu {
@@ -764,14 +770,8 @@ a {
   margin-right: 0px;
 }
 
-.ceramic_title {
-  margin-bottom: 20px;
-}
-
-.ceramic_text {
-  margin-bottom: 45px;
-  width: 536px;
-  line-height: 1.6;
+.img-logo {
+  margin-bottom: 40px;
 }
 
 .list_title {
