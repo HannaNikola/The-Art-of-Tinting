@@ -6,60 +6,69 @@
     padding-top: 126px;
     padding-bottom: 80px;
 }
+
+// first group
 .contacts_group1{
     margin-right: 289px;
 }
+.contact_text {
+    font-size: 16px;
+    line-height: 1.8;
+    width: 271px;
+    margin-top: 29px;
+
+}
+//   group-2
 .contacts_group2{
     width: 268px;
    margin-right: 183px;
 }
-.contact_text {
-font-size: 16px;
-line-height: 1.8;
-width: 271px;
-margin-top: 29px;
+.contact_link {
+    margin-bottom: 30px;
+}
+
+.contact_mobail {
+    display: flex;
+    line-height: 1.1;
 
 }
+.icon-phone-contacts {
+    display: flex;
+    fill: #FFFFFF;
+    margin-right: 25px;
+
+}
+
+.contact_mobail {
+    display: flex;
+    line-height: 1.1;
+
+}
+.contact_adress {
+
+    display: flex;
+    line-height: 1.1;
+}
+.icon-map-location {
+    width: 26px;
+    height: 26px;
+    display: flex;
+
+    fill: #FFFFFF;
+    margin: 0px;
+    margin-right: 25px;
+}
+
+// group-3
 .contact_title {
 font-weight: 500;
 font-size: 22px;
 line-height: 1.3;
 margin-bottom: 25px;
 }
-
-
-.icon-phone-contacts{
-display: flex;
-fill: #FFFFFF;
-margin-right: 25px;
-
-}
-
-.contact_mobail{
-     display: flex;
-    line-height: 1.1;
-    
-}
-
 .contacts_services{
 line-height: 2.4;
 margin-bottom: 2px;
 
 }
-.contact_link{
-margin-bottom: 30px;
-}
-.contact_adress {
-    
- display: flex;
- line-height: 1.1;
-}
-.icon-map-location {
-    width: 26px;
-    height: 26px;
-display: flex;
 
-fill:#FFFFFF ;
-margin: 0px;
- margin-right: 25px;
-}

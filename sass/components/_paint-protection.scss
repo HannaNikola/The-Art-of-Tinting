@@ -3,15 +3,20 @@
 }
 .container_protection{
   display: flex;
+  position: relative;
   padding-top: 150px;
   padding-bottom: 150px;
-  position: relative;
+ 
 }
+
+// right-side-photo
 .img-protection{
   position: absolute;
    left: -237px;
   bottom: 40px;
 }
+// first group
+
 .protect_group{
 margin-right: 35px;
 }
@@ -22,18 +27,22 @@ margin-right: 35px;
   width: 370px;
   line-height: 1.6;
 }
+
+// group cards
+
 .protect_package{
   display: flex;
 }
 .package {
+  text-align: center;
   height: 338px;
   width: 210px;
   padding: 20px;
-  text-align: center;
+  
   border-radius: 1px solid transparent;
-background-color: #343436;
-border-radius: 5%;
-margin-right: 20px;
+  border-radius: 5%;
+  background-color: #343436;
+  margin-right: 20px;
 &:last-child {
   margin: 0px;
 }
@@ -80,6 +89,8 @@ width: 170px;
   }
 
 }
+
+// shape dot
 .shape_dot_black {
   position: absolute;
   width: 176px;

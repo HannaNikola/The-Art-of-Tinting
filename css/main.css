@@ -621,9 +621,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   padding-top: 150px;
   padding-bottom: 150px;
-  position: relative;
 }
 
 .img-protection {
@@ -652,13 +652,13 @@ a {
 }
 
 .package {
+  text-align: center;
   height: 338px;
   width: 210px;
   padding: 20px;
-  text-align: center;
   border-radius: 1px solid transparent;
-  background-color: #343436;
   border-radius: 5%;
+  background-color: #343436;
   margin-right: 20px;
 }
 .package:last-child {
@@ -859,8 +859,8 @@ a {
 }
 
 .input_locat {
-  background-color: #343436;
   border: none;
+  background-color: #343436;
   border: 1px solid #828282;
   height: 50px;
   width: 545px;
@@ -981,9 +981,9 @@ a {
 }
 
 .container_oder {
+  position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  position: relative;
 }
 
 .title_oder {
@@ -992,29 +992,29 @@ a {
 }
 
 .oder-text {
-  font-family: Ubuntu;
-  font-weight: 400;
-  line-height: 1.16;
   margin: auto;
   text-align: center;
   width: 793px;
   margin-bottom: 20px;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 1.16;
 }
 
 .oder-button {
   display: block;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #F2C938;
   font-family: Ubuntu;
   font-weight: 700;
   font-size: 17px;
-  margin-left: auto;
-  margin-right: auto;
   cursor: pointer;
   padding: 15px 30px;
+  width: 246px;
   border: 1px solid transparent;
   border-radius: 5px;
-  width: 246px;
   color: #FFFFFF;
 }
 .oder-button:hover,
@@ -1046,11 +1046,6 @@ a {
   margin-right: 289px;
 }
 
-.contacts_group2 {
-  width: 268px;
-  margin-right: 183px;
-}
-
 .contact_text {
   font-size: 16px;
   line-height: 1.8;
@@ -1058,11 +1053,20 @@ a {
   margin-top: 29px;
 }
 
-.contact_title {
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 1.3;
-  margin-bottom: 25px;
+.contacts_group2 {
+  width: 268px;
+  margin-right: 183px;
+}
+
+.contact_link {
+  margin-bottom: 30px;
+}
+
+.contact_mobail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.1;
 }
 
 .icon-phone-contacts {
@@ -1078,15 +1082,6 @@ a {
   display: -ms-flexbox;
   display: flex;
   line-height: 1.1;
-}
-
-.contacts_services {
-  line-height: 2.4;
-  margin-bottom: 2px;
-}
-
-.contact_link {
-  margin-bottom: 30px;
 }
 
 .contact_adress {
@@ -1105,6 +1100,18 @@ a {
   fill: #FFFFFF;
   margin: 0px;
   margin-right: 25px;
+}
+
+.contact_title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+
+.contacts_services {
+  line-height: 2.4;
+  margin-bottom: 2px;
 }
 
 .footer {
