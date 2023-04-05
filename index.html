@@ -39,7 +39,7 @@
           <a class="link head_mobail" href="tel:+16477811116 "> <svg class="icon-phone-head" width="23" height="23">
             <use xlink:href="./sass/images/symbol-defs.svg#icon-phone-call"></use>
           </svg>  +1 (647) 781-1116</a>
-          <button type="submit" class="head_button" data-modal-open >Book now </button>
+          <button type="submit" class="head_button " data-modal-open >Book now </button>
         </div>
       </div>
     </header>
@@ -462,9 +462,29 @@
         </div>
     </section>
     <!-- modal -->
-    <div class="backdrop is-hidden" data-modal>
-<div class="modal">
-  <button type="button" class="close_button" data-modal-close >x</button>
+    <div class="backdrop is-hidden " data-modal>
+<div class="modal" >
+  <button type="button" class="close_button " data-modal-close >x</button>
+  <form action="">
+    <div>
+    <input type="text" id="name">
+    <label for="name">Name</label>
+    </div>
+    <div>
+      <input type="tel" id="tel">
+      <label for="tel">Phone number</label>
+    </div>
+    <div>
+      <input type="email" id="email">
+    <label for="email">Email</label>
+  </div>
+ 
+  <div>
+    <textarea name="feedback" rows="15" placeholder="Type your message here..."></textarea>
+  </div>
+  <a href="">I'm agree with term</a>
+  <button tupe="submit">submit</button>
+  </form>
 </div>
  </div>
   <script src="./js/modal.js"></script>
