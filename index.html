@@ -465,25 +465,28 @@
     <div class="backdrop is-hidden " data-modal>
 <div class="modal" >
   <button type="button" class="close_button " data-modal-close >x</button>
-  <form action="">
-    <div>
-    <input type="text" id="name">
-    <label for="name">Name</label>
+  <form action=""class="modal_form">
+    <div class="form_field">
+    <input type="text" class="modal_imput" id="name" >
+    <label for="name" class="modal_label">Name</label>
     </div>
-    <div>
-      <input type="tel" id="tel">
-      <label for="tel">Phone number</label>
+    <div class="form_field">
+      <input type="tel" class="modal_imput" id="tel">
+      <label for="tel" class="modal_label">Phone number</label>
     </div>
-    <div>
-      <input type="email" id="email">
-    <label for="email">Email</label>
+    <div class="form_field">
+      <input type="email" class="modal_imput" id="email">
+    <label for="email" class="modal_label">Email</label>
   </div>
  
-  <div>
-    <textarea name="feedback" rows="15" placeholder="Type your message here..."></textarea>
+  <div class="textaria_form">
+    <textarea class="modal_textaria"name="feedback" rows="10" placeholder="Type your message here..."></textarea>
+  </div class="modal_link">
+  <div class="wrapper_chaeckbox">
+  <input type="checkbox" class="modal_checkbox">
+  <a href="" class="modal_link_agree">I'm agree with term</a>
   </div>
-  <a href="">I'm agree with term</a>
-  <button tupe="submit">submit</button>
+  <button class="modal_submit" tupe="Submit">submit</button>
   </form>
 </div>
  </div>

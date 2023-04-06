@@ -15,7 +15,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    background-color: #616161;
+    padding: 20px;
    
 }
   .is-hidden {
@@ -29,12 +30,94 @@
 .close_button {
     
     border-radius: 50%;
-    border: 1px solid #777E90;
+    border: 1px solid transparent;
     position: absolute;
     top: -2%;
     right: -2%;
-    background-color: #777E90;
+    background-color: #F2C938;
     width: 30px;
     height: 30px;
 
+}
+.form_field {
+    margin-bottom: 30px;
+    position: relative;
+   
+
+}
+.modal_label{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    position: absolute;
+    top:50%;
+    left:5%;
+    transform: translate(-5%, -50%);
+}
+.modal_imput{
+     
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:#616161; 
+    padding: 15px;
+    width: 100%;
+   
+   
+}
+
+.modal_textaria {
+background-color: #616161;
+border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    resize: none;
+    padding: 15px;
+    margin-bottom: 20px;
+    }
+.modal_textaria::placeholder {
+    color: black;
+
+}
+.wrapper_chaeckbox{
+   display: flex;
+   justify-content: center;
+}
+.modal_checkbox{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #F2C938;
+}
+.modal_link_agree {
+display: block;
+justify-content: center;
+color: #F2C938;
+font-size: 20px;
+text-decoration: none;
+margin-bottom: 50px;
+
+}
+.modal_submit {
+    display: block;
+    cursor: pointer;
+   margin: auto;
+
+    padding: 15px 30px ;
+    width: 246px;
+    border-radius: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #F2C938;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+    text-align: 1,6;
+    font-family: Ubuntu;
+    &:hover,
+    &:focus {
+        background-color: #c8bb8a;
+    }
 }
