@@ -61,6 +61,7 @@
     border-radius: 5px;
     background-color:#616161; 
     padding: 15px;
+    padding-left: 100px;
     width: 100%;
     &:hover,
     &:focus {
@@ -135,5 +136,6 @@ margin-bottom: 50px;
     &:hover,
     &:focus {
         background-color: #c8bb8a;
+        color: black;
     }
 }

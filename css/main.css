@@ -1252,6 +1252,7 @@ button {
   border-radius: 5px;
   background-color: #616161;
   padding: 15px;
+  padding-left: 100px;
   width: 100%;
 }
 .modal_imput:hover, .modal_imput:focus {
@@ -1348,4 +1349,5 @@ button {
 }
 .modal_submit:hover, .modal_submit:focus {
   background-color: #c8bb8a;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
