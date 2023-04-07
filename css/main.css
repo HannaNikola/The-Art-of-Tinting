@@ -190,6 +190,7 @@ button {
 }
 
 .hero {
+  background-color: #222224;
   width: 100%;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(21.1%, rgba(0, 0, 0, 0.357)), color-stop(66.01%, rgba(0, 0, 0, 0.7))), url("../sass/images/background-img.jpg");
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.357) 21.1%, rgba(0, 0, 0, 0.7) 66.01%), url("../sass/images/background-img.jpg");
@@ -586,6 +587,7 @@ button {
   margin: 0 auto;
   background-size: cover;
   position: relative;
+  background-color: #222224;
 }
 
 .lable_video {
@@ -725,7 +727,7 @@ button {
   position: absolute;
   width: 176px;
   height: 176px;
-  right: -450px;
+  right: -290px;
   top: 0px;
 }
 
@@ -1056,7 +1058,7 @@ button {
 
 .oder-shape-png {
   position: absolute;
-  right: -450px;
+  right: -290px;
   top: 100px;
   height: 231px;
   width: 231px;
@@ -1219,6 +1221,12 @@ button {
 }
 
 .close_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 50%;
   border: 1px solid transparent;
   position: absolute;
@@ -1227,6 +1235,7 @@ button {
   background-color: #F2C938;
   width: 30px;
   height: 30px;
+  padding: 3px;
 }
 
 .form_field {
@@ -1350,4 +1359,8 @@ button {
 .modal_submit:hover, .modal_submit:focus {
   background-color: #c8bb8a;
   color: black;
+}
+
+.icon_close {
+  fill: black;
 }/*# sourceMappingURL=main.css.map */

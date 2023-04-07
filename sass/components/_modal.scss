@@ -28,6 +28,8 @@
     overflow: hidden;
  }
 .close_button {
+    display: flex;
+    align-items: center;
     
     border-radius: 50%;
     border: 1px solid transparent;
@@ -37,6 +39,7 @@
     background-color: #F2C938;
     width: 30px;
     height: 30px;
+    padding: 3px;
 
 }
 .form_field {
@@ -138,4 +141,8 @@ margin-bottom: 50px;
         background-color: #c8bb8a;
         color: black;
     }
+}
+.icon_close{
+    fill: black;
+   
 }
