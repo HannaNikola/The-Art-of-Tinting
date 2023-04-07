@@ -55,18 +55,25 @@
     transform: translate(-5%, -50%);
 }
 .modal_imput{
-     
+    outline: none;
     border: none;
     border: 1px solid black;
     border-radius: 5px;
     background-color:#616161; 
     padding: 15px;
     width: 100%;
+    &:hover,
+    &:focus {
+    outline: 1px solid #F2C938;
+        border: none;
+    }
+    
    
    
 }
 
 .modal_textaria {
+    outline: none;
 background-color: #616161;
 border: none;
     border: 1px solid black;
@@ -75,6 +82,11 @@ border: none;
     resize: none;
     padding: 15px;
     margin-bottom: 20px;
+    &:hover,
+        &:focus {
+            outline: 1px solid #F2C938;
+            border: none;
+        }
     }
 .modal_textaria::placeholder {
     color: black;
@@ -90,8 +102,12 @@ border: none;
     margin-right: 10px;
     width: 20px;
     height: 20px;
-    background-color: #F2C938;
+    
 }
+.modal_checkbox:checked {
+    color: #F2C938;
+}
+
 .modal_link_agree {
 display: block;
 justify-content: center;

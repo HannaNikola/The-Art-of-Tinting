@@ -78,6 +78,7 @@
     &:hover,
         &:focus {
             background-color: #45B26B;
+               
             transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
         }
     
@@ -87,6 +88,10 @@
 font-size: 31.68px;
 line-height: 1.14;
  display: flex;
+ &:hover,
+ &:focus{
+    color: #F2C938;
+ }
 
 }
 .icon-phone-hero {

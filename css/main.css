@@ -275,6 +275,9 @@ button {
   display: -ms-flexbox;
   display: flex;
 }
+.hero_mobail:hover, .hero_mobail:focus {
+  color: #F2C938;
+}
 
 .icon-phone-hero {
   fill: #F2C938;
@@ -542,9 +545,14 @@ button {
   padding: 11px 25px;
   border-radius: 5px;
   border: 1px solid transparent;
+  -webkit-transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card_button:hover, .card_button:focus {
   background-color: #969696;
+  color: #000;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .window_img {
@@ -702,9 +710,14 @@ button {
   border-radius: 5px;
   padding: 11px 25px;
   width: 170px;
+  -webkit-transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .package_button:hover, .package_button:focus {
   background-color: #969696;
+  color: #222224;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .shape_dot_black {
@@ -826,9 +839,14 @@ button {
   border: 1px solid transparent;
   width: 246px;
   padding: 15px 30px;
+  -webkit-transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list_button:hover, .list_button:focus {
   background-color: #969696;
+  color: #000;
+  -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ceramic-img-side {
@@ -863,6 +881,7 @@ button {
 }
 
 .input_locat {
+  outline: none;
   border: none;
   background-color: #343436;
   border: 1px solid #828282;
@@ -876,7 +895,8 @@ button {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input_locat:hover {
-  border: 1px solid #F2C938;
+  border: none;
+  outline: 1px solid #F2C938;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -927,12 +947,18 @@ button {
   margin-bottom: 30px;
   line-height: 1.1;
 }
+.navigation_mobail:hover, .navigation_mobail:focus {
+  color: #F2C938;
+}
 
 .navigation_adress {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   line-height: 1.1;
+}
+.navigation_adress:hover, .navigation_adress:focus {
+  color: #F2C938;
 }
 
 .icon-map {
@@ -964,13 +990,15 @@ button {
 }
 .icon-fb-location:hover, .icon-fb-location:focus {
   fill: #161617;
+  background-color: #fff;
 }
 
 .icon-insta-location {
   background-color: #F2C938;
 }
 .icon-insta-location:hover, .icon-insta-location:focus {
-  fill: #F2C938;
+  fill: #161617;
+  background-color: #fff;
 }
 
 .map {
@@ -1072,6 +1100,9 @@ button {
   display: flex;
   line-height: 1.1;
 }
+.contact_mobail:hover, .contact_mobail:focus {
+  color: #F2C938;
+}
 
 .icon-phone-contacts {
   display: -webkit-box;
@@ -1086,6 +1117,9 @@ button {
   display: -ms-flexbox;
   display: flex;
   line-height: 1.1;
+}
+.contact_adress:hover, .contact_adress:focus {
+  color: #F2C938;
 }
 
 .icon-map-location {
@@ -1212,6 +1246,7 @@ button {
 }
 
 .modal_imput {
+  outline: none;
   border: none;
   border: 1px solid black;
   border-radius: 5px;
@@ -1219,8 +1254,13 @@ button {
   padding: 15px;
   width: 100%;
 }
+.modal_imput:hover, .modal_imput:focus {
+  outline: 1px solid #F2C938;
+  border: none;
+}
 
 .modal_textaria {
+  outline: none;
   background-color: #616161;
   border: none;
   border: 1px solid black;
@@ -1229,6 +1269,10 @@ button {
   resize: none;
   padding: 15px;
   margin-bottom: 20px;
+}
+.modal_textaria:hover, .modal_textaria:focus {
+  outline: 1px solid #F2C938;
+  border: none;
 }
 
 .modal_textaria::-webkit-input-placeholder {
@@ -1270,7 +1314,10 @@ button {
   margin-right: 10px;
   width: 20px;
   height: 20px;
-  background-color: #F2C938;
+}
+
+.modal_checkbox:checked {
+  color: #F2C938;
 }
 
 .modal_link_agree {

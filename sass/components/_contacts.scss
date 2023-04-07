@@ -30,6 +30,10 @@
 .contact_mobail {
     display: flex;
     line-height: 1.1;
+    &:hover,
+    &:focus {
+        color: #F2C938;
+    }
 
 }
 .icon-phone-contacts {
@@ -43,6 +47,10 @@
 
     display: flex;
     line-height: 1.1;
+    &:hover,
+        &:focus {
+            color: #F2C938;
+        }
 }
 .icon-map-location {
     width: 26px;
