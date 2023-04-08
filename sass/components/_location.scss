@@ -34,6 +34,7 @@ border: 1px solid #828282;
 height: 50px;
 width: 545px;
 padding: 10px;
+padding-left: 150px;
 margin-bottom: 20px;
 font-size: 14px;
 color: #828282;
@@ -44,6 +45,23 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 outline: 1px solid #F2C938;
 transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+}
+
+.red_accent {
+    color: #EB5757;
+    margin-left: 2px;
+}
+
+.form_inform {
+    position: relative;
+}
+
+.label_location {
+    position: absolute;
+    top: 25%;
+    left: 2%
+    
 
 }
 

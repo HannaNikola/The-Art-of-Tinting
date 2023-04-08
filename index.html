@@ -82,6 +82,7 @@
            </div> 
            </div>
     </section>
+    <div class="backdrop_conteiner"></div>
     <!-- about as -->
     <section class="about">
       <div class="container container_about">
@@ -340,20 +341,25 @@
           </p>
           <form action="" class="local_form">
             
-              
-              <input type="text" id="name-locat" required  placeholder="Name* "class="input_locat">
+              <div class="form_inform">
+              <input type="text" id="name-locat" required class="input_locat">
+              <label for="name-locat" class="label_location">Name<span class="red_accent">*</span></label>
+              </div>
+
+            <div class="form_inform">
+            <input type="tel" id="tel-locat" required   class="input_locat">
+            <label for="tel-locat" class="label_location">Phone number<span class="red_accent">*</span></label>
+            </div>
+
+              <div class="form_inform">
+              <input type="email" id="email-locat"  class="input_locat" > 
+              <label for="email-locat" class="label_location">Email</label> 
+            </div>
             
-            <div class="form_element_location">
-              
-            <input type="tel" id="tel-locat" required  placeholder="Phone number *" class="input_locat">
-         
-            <div class="form_element_location">
-              
-              <input type="email" id="email-locat" placeholder="Email"  class="input_locat" > 
-            
-            <div class="form_element_location">
-              
-              <input type="text" id="massage-locat" placeholder="Message" class="input_locat">
+              <div class="form_inform">
+              <input type="text" id="massage-locat"  class="input_locat">
+              <label for="massage-locat" class="label_location">Message</label>
+              </div>
            
             <button type="submit" class="navigation_button">Send Message</button>
           </form>
