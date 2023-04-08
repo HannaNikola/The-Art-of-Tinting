@@ -67,11 +67,12 @@ margin-bottom: 20px;
 .list_item::before {
     content: " ";
     display: flex;
-    background-image: url("../images/tickcircle.png");
+    background-image: url("../sass/images/tickcircle.png");
     height: 21px;
     width: 21px;
     align-items: center;
     margin-right: 6px;
+    
 
 }
 
