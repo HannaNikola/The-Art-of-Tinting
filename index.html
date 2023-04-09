@@ -343,12 +343,12 @@
             
               <div class="form_inform">
               <input type="text" id="name-locat" required class="input_locat">
-              <label for="name-locat" class="label_location">Name<span class="red_accent">*</span></label>
+              <label for="name-locat" class="label_location">Name <span class="red_accent">*</span></label>
               </div>
 
             <div class="form_inform">
             <input type="tel" id="tel-locat" required   class="input_locat">
-            <label for="tel-locat" class="label_location">Phone number<span class="red_accent">*</span></label>
+            <label for="tel-locat" class="label_location">Phone number <span class="red_accent">*</span></label>
             </div>
 
               <div class="form_inform">
@@ -388,12 +388,12 @@
              </div>
              
           </div>
-           <!-- <div class="map"> -->
-            <!-- <iframe
+            <!-- <div class="map"> 
+             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.1099461413723!2d-79.8785521!3d43.5000419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6f83dd033755%3A0x80c42ab25977e400!2zMzQ4IEJyb250ZSBTdC4gUywgTWlsdG9uLCBPTiBMOVQgMEg3LCDQmtCw0L3QsNC00LA!5e0!3m2!1sru!2snl!4v1680214989522!5m2!1sru!2snl"
               width="645" height="700" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade" rel=" noopener noopener nofollow"></iframe>
-          </div>  -->
+          </div>   -->
          </div>
     </section>
     <!-- oder -->
@@ -473,7 +473,7 @@
   <button type="button" class="close_button " data-modal-close ><svg class="icon_close" width="30" height="30"><use xlink:href="./sass/images/symbol-defs.svg#icon-x"> </use></svg></button>
   <form action=""class="modal_form">
     <div class="form_field">
-    <input type="text" class="modal_imput" id="name" >
+    <input type="text" class="modal_imput" id="name" required  >
     <label for="name" class="modal_label">Name</label>
     </div>
     <div class="form_field">
@@ -481,16 +481,20 @@
       <label for="tel" class="modal_label">Number</label>
     </div>
     <div class="form_field">
-      <input type="email" class="modal_imput" id="email">
+      <input type="email" class="modal_imput" id="email" required >
     <label for="email" class="modal_label">Email</label>
   </div>
- 
-  <div class="textaria_form">
+ <div class="textaria_form">
     <textarea class="modal_textaria"name="feedback" rows="10" placeholder="Type your message here..."></textarea>
-  </div class="modal_link">
-  <div class="wrapper_chaeckbox">
-  <input type="checkbox" class="modal_checkbox">
-  <a href="" class="modal_link_agree">I'm agree with term</a>
+</div>
+
+  <div role="group" class="wrapper_chaeckbox">
+    <input type="checkbox" id="checkbox-modal" class="modal_checkbox  visually-hidden">  
+  <label for="checkbox-modal" class="checkbox_label"> <div class="custom_checkbox">
+    <svg class="icon-check" width="18px" height="18px">
+      <use xlink:href="./sass/images/symbol-defs.svg#icon-check"></use>
+    </svg></div>I agree to receive updates and marketing communications from</label>
+    
   </div>
   <button class="modal_submit" tupe="Submit">submit</button>
   </form>
