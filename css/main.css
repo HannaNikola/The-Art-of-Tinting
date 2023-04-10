@@ -740,6 +740,21 @@ button {
   padding-bottom: 100px;
 }
 
+.gallary_car {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallary_item {
+  width: 312px;
+  height: 302;
+  margin-right: 24px;
+}
+.gallary_item:last-child {
+  margin-right: 0;
+}
+
 .services {
   background-color: #222224;
 }
