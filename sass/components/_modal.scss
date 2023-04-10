@@ -15,7 +15,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #616161;
+    background-color: $background-modal;
     padding: 20px;
    
 }
@@ -36,14 +36,14 @@
     position: absolute;
     top: -2%;
     right: -2%;
-    background-color: #F2C938;
+    background-color: $accent-color;
     width: 30px;
     height: 30px;
     padding: 3px;
 
 }
 .icon_close {
-    fill: black;
+    fill: $black;
 
 }
 .form_field {
@@ -55,7 +55,7 @@
 .modal_label{
     font-size: 18px;
     font-weight: 700;
-    color: black;
+    color: $black;
     position: absolute;
     top:50%;
     left:5%;
@@ -64,15 +64,15 @@
 .modal_imput{
     outline: none;
     border: none;
-    border: 1px solid black;
+    border: 1px solid $black;
     border-radius: 5px;
-    background-color:#616161; 
+    background-color:$background-modal; 
     padding: 15px;
     padding-left: 100px;
     width: 100%;
     &:hover,
     &:focus {
-    outline: 1px solid #F2C938;
+    outline: 1px solid $accent-color;
         border: none;
     }
     
@@ -82,9 +82,9 @@
 
 .modal_textaria {
     outline: none;
-background-color: #616161;
+background-color: $background-modal;
 border: none;
-    border: 1px solid black;
+    border: 1px solid $black;
     border-radius: 5px;
     width: 100%;
     resize: none;
@@ -92,12 +92,12 @@ border: none;
     margin-bottom: 20px;
     &:hover,
         &:focus {
-            outline: 1px solid #F2C938;
+            outline: 1px solid $accent-color;
             border: none;
         }
     }
 .modal_textaria::placeholder {
-    color: black;
+    color: $black;
 
 }
 
@@ -114,7 +114,7 @@ border: none;
 }
 .checkbox_label {
     display: flex;
-    color: black;
+    color: $black;
    font-size: 20px;
 margin-bottom: 40px;
 
@@ -125,7 +125,7 @@ margin-bottom: 40px;
     margin-right: 10px;
     width: 20px;
     height: 20px;
-    border: 2px solid #F2C938;
+    border: 2px solid $accent-color;
     background-color: #fff;
 
 }
@@ -134,7 +134,7 @@ margin-bottom: 40px;
     align-items: center;
 }
  .modal_checkbox:checked + .checkbox_label .custom_checkbox {
-     background-color: #F2C938;
+     background-color: $accent-color;
      
  }
 
@@ -148,7 +148,7 @@ margin-bottom: 40px;
     width: 246px;
     border-radius: 1px solid transparent;
     border-radius: 5px;
-    background-color: #F2C938;
+    background-color: $accent-color;
     font-weight: 700;
     font-size: 17px;
     color: #fff;
@@ -157,6 +157,6 @@ margin-bottom: 40px;
     &:hover,
     &:focus {
         background-color: #c8bb8a;
-        color: black;
+        color: $black;
     }
 }

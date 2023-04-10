@@ -29,8 +29,8 @@
 .input_locat{
     outline: none;
     border: none;
-     background-color:#343436;
-border: 1px solid #828282;
+     background-color:$light-background-color;
+border: 1px solid $color-input;
 height: 50px;
 width: 545px;
 padding: 10px;
@@ -38,19 +38,19 @@ padding-left: 150px;
 margin-bottom: 20px;
 font-size: 20px;
 font-weight: 400;
-color: #828282;
+color: $color-input;
 transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 &:hover{
     border:none;
-outline: 1px solid #F2C938;
+outline: 1px solid $accent-color;
 transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 }
 
 .red_accent {
-    color: #EB5757;
+    color: $red-accent;
     
 }
 
@@ -71,8 +71,8 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.1;
-    color: #fff;
-    background-color: #F2C938;
+    color: $second-text-color;
+    background-color: $accent-color;
 
     cursor: pointer;
     border-radius: 5px;
@@ -84,7 +84,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus {
-        background-color: #45B26B ;
+        background-color: $hover-color ;
         transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
@@ -107,7 +107,7 @@ display: flex;
     line-height:1.1 ;
     &:hover,
         &:focus {
-            color: #F2C938
+            color: $accent-color;
         }
 }
 
@@ -118,7 +118,7 @@ display: flex;
     line-height: 1.1;
     &:hover,
         &:focus {
-            color: #F2C938
+            color: $accent-color;
         }
 }
 
@@ -154,7 +154,7 @@ display: flex;
 
 }
 .icon-insta-location {
-        background-color: #F2C938;
+        background-color: $accent-color;
         &:hover,
         &:focus{
            fill: #161617;
