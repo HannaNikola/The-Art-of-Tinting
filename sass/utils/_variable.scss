@@ -1,10 +1,17 @@
-:root {
-    --main-background-color : #222224;
-    --light-background-color: #343436 ;
-    --second-background-color:#28282A;
-    --black: #000000;
-    --shrift:#FFFFFF;
-    --background-buttons:#222224;
-    --akcent-color:#F2C938;
+// text-color
+$main-text-color:#FFFFFF;
+$second-text-color:#969696;
+$footer-text-color:#777E90;
+   
 
-}
+// style-color
+ $accent-color: #F2C938;
+ $background-buttons: #222224;
+ $black: #000000;
+ $red-accent: #EB5757;
+
+//  background- body-colors
+$main-background-color : #222224;
+$light-background-color: #343436;
+$second-background-color: #28282A;
+$dark-background:#222224;
