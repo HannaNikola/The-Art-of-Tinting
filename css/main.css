@@ -22,6 +22,7 @@ ul {
 }
 
 .container {
+  max-width: 1950px;
   width: 1350px;
   margin: auto;
   padding-left: 15px;
@@ -73,16 +74,6 @@ a {
 
 button {
   border: none;
-}
-
-:root {
-  --main-background-color: #222224;
-  --light-background-color: #343436 ;
-  --second-background-color:#28282A;
-  --black: #000000;
-  --shrift:#FFFFFF;
-  --background-buttons:#222224;
-  --akcent-color:#F2C938;
 }
 
 .head {
@@ -160,7 +151,7 @@ button {
   font-size: 18px;
   line-height: 1.1;
   background-color: #F2C938;
-  color: #FFFFFF;
+  color: #969696;
   text-align: center;
   display: block;
   width: 160px;
@@ -251,7 +242,7 @@ button {
   font-weight: 500;
   font-size: 25px;
   line-height: 1.14;
-  color: #FFFFFF;
+  color: #969696;
   background-color: #F2C938;
   cursor: pointer;
   display: block;
@@ -519,7 +510,7 @@ button {
 .card_price {
   font-size: 15px;
   line-height: 1.1;
-  color: #616161;
+  color: #969696;
   margin-bottom: 10px;
 }
 
@@ -552,7 +543,7 @@ button {
 }
 .card_button:hover, .card_button:focus {
   background-color: #969696;
-  color: #000;
+  color: #000000;
   -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -706,7 +697,7 @@ button {
   font-weight: 500;
   font-size: 17px;
   text-align: center;
-  color: #FFFFFF;
+  color: #969696;
   background-color: #222224;
   cursor: pointer;
   border: 1px solid transparent;
@@ -718,7 +709,7 @@ button {
 }
 .package_button:hover, .package_button:focus {
   background-color: #969696;
-  color: #222224;
+  color: #000000;
   -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -853,7 +844,7 @@ button {
   font-size: 17px;
   line-height: 1.1;
   background-color: #222224;
-  color: #FFFFFF;
+  color: #969696;
   cursor: pointer;
   text-align: center;
   border-radius: 5px;
@@ -865,7 +856,7 @@ button {
 }
 .list_button:hover, .list_button:focus {
   background-color: #969696;
-  color: #000;
+  color: #000000;
   -webkit-transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -942,7 +933,7 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.1;
-  color: #fff;
+  color: #969696;
   background-color: #F2C938;
   cursor: pointer;
   border-radius: 5px;
@@ -1084,7 +1075,7 @@ button {
   width: 246px;
   border: 1px solid transparent;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #969696;
 }
 .oder-button:hover,
 .oder-button :focus {
@@ -1145,7 +1136,7 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  fill: #FFFFFF;
+  fill: #969696;
   margin-right: 25px;
 }
 
@@ -1165,7 +1156,7 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  fill: #FFFFFF;
+  fill: #969696;
   margin: 0px;
   margin-right: 25px;
 }
@@ -1274,7 +1265,7 @@ button {
 }
 
 .icon_close {
-  fill: black;
+  fill: #000000;
 }
 
 .form_field {
@@ -1285,7 +1276,7 @@ button {
 .modal_label {
   font-size: 18px;
   font-weight: 700;
-  color: black;
+  color: #000000;
   position: absolute;
   top: 50%;
   left: 5%;
@@ -1296,7 +1287,7 @@ button {
 .modal_imput {
   outline: none;
   border: none;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 5px;
   background-color: #616161;
   padding: 15px;
@@ -1312,7 +1303,7 @@ button {
   outline: none;
   background-color: #616161;
   border: none;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 5px;
   width: 100%;
   resize: none;
@@ -1325,23 +1316,23 @@ button {
 }
 
 .modal_textaria::-webkit-input-placeholder {
-  color: black;
+  color: #000000;
 }
 
 .modal_textaria::-moz-placeholder {
-  color: black;
+  color: #000000;
 }
 
 .modal_textaria:-ms-input-placeholder {
-  color: black;
+  color: #000000;
 }
 
 .modal_textaria::-ms-input-placeholder {
-  color: black;
+  color: #000000;
 }
 
 .modal_textaria::placeholder {
-  color: black;
+  color: #000000;
 }
 
 .wrapper_chaeckbox {
@@ -1363,7 +1354,7 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: black;
+  color: #000000;
   font-size: 20px;
   margin-bottom: 40px;
 }
@@ -1410,5 +1401,5 @@ button {
 }
 .modal_submit:hover, .modal_submit:focus {
   background-color: #c8bb8a;
-  color: black;
+  color: #000000;
 }/*# sourceMappingURL=main.css.map */
